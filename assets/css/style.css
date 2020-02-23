@@ -216,13 +216,38 @@ input[type=submit] {
   border: 0 none;
 }
 
-@media screen (max-width: 980px) {
- 
+@media screen and (max-width: 980px) {
+  body {
+    background-color: lightblue;
+  }
 }
-  @media screen (max-width: 768px) {
-    
-    }
-  
-    @media screen (max-width: 640px) {
-      
-    } 
+@media screen and (max-width: 640px) {
+  h1 {
+    margin: 0;
+    padding: 15px 10px 15px 10px;
+  }
+  .container {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  img {
+    width: 100%;
+  }
+  .auth-image {
+    width: 100%;
+    padding-bottom: 5px;
+  }
+  footer {
+    font-size: small;
+    align-items: center;
+    vertical-align: middle;
+  }
+  .main-section {
+    display: inline;
+  }
+}
+@media screen and (max-width: 768px) {
+  body {
+    background-color: lightyellow;
+  }
+}
