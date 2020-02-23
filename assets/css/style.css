@@ -216,12 +216,12 @@ input[type=submit] {
   border: 0 none;
 }
 
-@media screen and (max-width: 980px) {
+@media only screen and (max-width: 980px) {
   body {
-    background-color: lightblue;
+    font-weight: bold;
   }
 }
-@media screen and (max-width: 640px) {
+@media only screen and (max-width: 640px) {
   h1 {
     margin: 0;
     padding: 15px 10px 15px 10px;
@@ -246,7 +246,7 @@ input[type=submit] {
     display: inline;
   }
 }
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   body {
     background-color: lightyellow;
   }
