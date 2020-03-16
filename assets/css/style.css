@@ -251,3 +251,7 @@ input[type=submit] {
     background-color: white;
   }
 }
+
+#pic{
+  width: 450px;
+}
